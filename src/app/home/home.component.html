@@ -1,0 +1,21 @@
+
+<div class="main">
+    
+    <h2 style="font-size: 3rem;"> <img src="/assets/work.png" alt="">Random Friends</h2>
+</div>
+
+<div class="contanier">
+
+   
+<img class="dp" [src]="data.image">;
+
+
+    <h3 class="animate__animated animate__bounce" id="name">{{data.firstName}} {{data.lastName}}</h3>
+    <h4 id="job"> {{data.company.title}}</h4>
+    <h3 id="map"> &#9992;  {{data.address.city}}, {{data.address.state}}</h3>
+
+
+
+    <button (click)="api()" type="button" id="btn" class="btn btn-warning mt-5">check random user</button>
+
+</div>

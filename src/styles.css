@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import 'animate.css';
+
+body, html {
+    background-image: url(./assets/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
